@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+     <head>
+          <title> Array_objects </title>
+     </head>
+     <body>
+          <script>
+                 var cart = [];
+                 var sum = 0, discount;
+                 var empty="";
+                 var cartitems="";
+                 var product_list = [
+                                      { Product_name : 'Iphone' , Price : 70000 },
+                                      { Product_name : 'Smart watch' , Price : 3000 },
+                                      { Product_name : 'Bluetooth Headset' , Price : 8000 },
+                                      { Product_name : 'JBL speaker' , Price : 10000 },
+                                      { Product_name : 'Laptop' , Price : 85000 },
+                                      { product_name : 'Smart T.V' , price : 25000},
+                                      
+                                    ];
+                  alert("List of available products : ");                  
+                 for( let i=0; i<product_list.length; i++)
+                 {
+                     empty += ( (i+1)+" . " +(product_list[i].Product_name)+ " - " +(product_list[i].Price)+"\n");
+                 }
+                 alert(empty);
+                 
+                 for(let i=0;i<(cart.length+1);i++)
+                 {
+                   var user=prompt("enter required products from the product_list \n NOTE: Enter'end' to complete the values");  
+                     if(user=="end")
+                       {
+                          break;
+                       }
+                     cart.push(product_list[user-1]);
+                     sum = sum + parseInt( cart[i].Price);
+                 }  
+                
+                      for( let j=0; j<cart.length; j++)
+                 {
+                     cartitems += ( (j+1)+" . " +(cart[j].Product_name)+ " - " +(cart[j].Price)+"\n");
+                 }
+                    
+                    alert("Items purchased :"+cartitems);
+                    alert(" Total price of required products : " +sum);
+                  
+                     if(sum>2000 && cart.length>=5)
+                       {
+                         alert("eligible discount : 20%");
+                         discount = sum * (80/100);
+                         alert("Amount to be paid : " +discount);
+                       }
+                       else if(sum >2000 && cart.length<5)
+                            {
+                              alert("eligible discount : 10%");
+                              discount = sum * (90/100);
+                                alert("Amount to be paid " +discount);
+                            }
+                            else
+                            {
+                              alert("0% discount \n bill amount =" +sum)
+                            }  
+                                     
+          </script>
+     </body>
+     
+</html>

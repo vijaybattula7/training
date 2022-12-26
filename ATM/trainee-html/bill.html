@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            BILL_DISCOUNT
+        </title>
+    </head>
+<body>
+   <script>
+    var items=[];
+    var discount;
+    var bill;
+    var sum=0;
+    var input;
+    
+    for(let i=0;i<=items.length+1;i++){
+     input=prompt("enter the item price");
+     items.push(input);
+     if(input=="end"){
+     break;
+     }
+     sum+=items[i];
+     }
+     if(sum>2000 && items.length>=5){
+       sum*20/100=discount;
+       bill=sum-discount;
+       }
+       else if(sum>2000 && items.length<5){
+        sum*10/100=discount;
+       bill=sum-discount;
+     }
+     else{
+     alert("no discount");
+     }
+   </script>        
+</body>
+</html>   

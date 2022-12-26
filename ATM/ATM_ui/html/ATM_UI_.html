@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>page1</title>
+       
+       <link rel="stylesheet" href="../css/cc2.css">                            
+     </head>
+<body>
+   <div class="contain">
+      <input type="button" id="login" class="loginpage" value="LOGIN" ><br><br>
+      <input type="button" id="register" value="REGISTER">
+   </div>
+   <div class="page2">
+            <center>
+            <div class="log">
+            <h1>LOGIN</h1>
+           <div id="myModal" class="modal">
+           <div class="modal-content">
+           <span class="close">&times;</span>
+           <p>please enter correct login details</p>
+             </div>
+           </div><br><br>
+            <input type="numeric" placeholder="ACCOUNT NUMBER" class="account" size="20"   id="username" required></br>
+            </br>     
+            <input type="password"  placeholder="PASSWORD" class="pswd" " id="password" required></br>
+            </br>
+            <input type="checkbox" size="20"><lable>Remember Me &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Forgot password?</lable><br>
+            </br>
+            <button type="button" id="vijay" onclick="loginValidation()">LOG IN</button>
+            <h5>IF YOU DON'T HAVE AN ACCOUNT?<a href="">Register</a></h5>       
+            <button class="back" onclick="back()">Go Back</button>
+            </div></center>
+       </div>
+       
+       <div class="ui">
+       <header><div class="line">
+            <div class="atm">ATM</div>
+            <div class="cardreturn" onclick="logout()">LOGOUT</div></div>
+       </header>
+            <div class="main">
+            <div class="left-side"> 
+            <p> Welcome,</p>
+            <h2>Vijay Kumar</h2><br>
+            <p>Account Number</p>
+            <h2 class="acnum">****123</h2>
+            <p > Account Balance</p>
+          <span> Rs.<h2 class="money">0</h2></span><br>
+          
+         
+            </div>
+            <div class="container">
+            <button class="Withdraw-btn">Withdraw</button>
+            <button class="deposit-btn">Deposit</button>
+            <button class="transactions_btn" onclick="checkTransactions('Transactions')">Transactions</button>
+            <button class="cancel" onclick="backlogin()">cancel</button>
+            </div>  
+            </div>
+       
+</div> 
+<div class="withdrawRequest">
+<p>Enter Money</p> <input type="number" id="withdraw-ammo"><br><br>
+<input type="button" id="btn-withdraw" value="WITHDRAW" onclick="withdarwInput()"><br><br>
+  <button onclick="backWithdraw()">Cancel</button>
+</div>
+<div class="depositRequest">
+<p>Enter Money</p> <input type="number" id="deposit-ammo"><br><br>
+<input type="button" id="btn-deposit" value="DEPOSIT"  onclick="depositInput()"><br><br>
+ <button value="Cancel" onclick="backDeposit()">Cancel</button>
+</div>   
+<div class="transaction">
+<h2><u><b>Transaction history</b></u></h2>
+   <table class="again">
+    <tr class="wd1" >
+    
+        <td class="bg">s.no</td>
+        <td class="bg">Transaction type</td>
+        <td class="bg">ammount</td>
+        <td class="bg">balance</td>
+    </tr>
+    <tbody class="trans">    
+    </tbody>             
+   </table><br><br>
+   <button value="Deposit" onclick="checkTransactions('Deposit')">Deposit</button>
+   <button value="Withdraw" onclick="checkTransactions('withdraw')">Withdraw</button>
+  
+   <input type="button" value="Go Back" onclick="mainMenu()">
+</div>
+ 
+        
+ <script src="../js/cc2.js"></script>
+</body>  
+</html>   

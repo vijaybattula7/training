@@ -1,0 +1,15 @@
+.log{
+    box-sizing: border-box;
+    margin:110px auto;
+    text-align: center;
+    width: 400px;
+    height: 100px;
+    border: 5px solid black;
+    padding: auto;
+  }         
+  body{
+  background-image:url(" /home/feuji/Downloads/wall.jpg");
+  background-repeat:no-repeat;
+  height:100vh;
+  background-size:cover;
+  }

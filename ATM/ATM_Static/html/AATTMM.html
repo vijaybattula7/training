@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>ATM BANK</title>
+   </head>
+   <body>
+      <script>
+      function atm(){
+      var account1=12345,account2=67890,pwsd1=0000,pwsd2=1111;
+      var accountbal;
+    //  var accountbal=20000;
+      var deposit;
+      var withdraw;
+      var ac=prompt("Enter Your Account Number");
+      if(ac==""){
+      alert("account number not be empty");
+      }
+             if(account1==ac || account2==ac){
+             var pw=prompt("Enter Your Password");
+         if(account1==ac && pwsd1==pw ||account2==ac && pwsd2==pw){
+             alert("welcome to your Account  ");
+            // alert("1.Account Balance\n2.Deposit\n3.Withdraw\n4.exit");
+                 while (true) {
+                 var flag=prompt(" choose any one option \n \n1.Account Balance\n2.Deposit\n3.Withdraw\n4.exit");
+                 if(account1==ac){
+                 accountbal=10000;}
+                 else{
+                  accountbal=20000;
+                  }
+                 switch (flag) {
+                case "1":alert("your account balance is :"+accountbal);
+                break;
+                            
+                 case "2":if(account1 == 12345 && pwsd1 == 0000)
+
+                            {
+
+                            //    alert("deposit balance :");
+
+                               deposit=parseInt(prompt("enter your deposit amount"));
+
+                                accountbal=accountbal+deposit;
+
+                                alert("total balance is:"+accountbal);
+
+                            }
+
+                            else if(account2==67890 && pwsd2==1111)
+
+                            {
+
+                             //  alert("deposit balance :");
+
+                                 deposit=parseInt(prompt("enter your deposit amount"));
+
+                                accountbal=accountbal+deposit;
+
+                                alert("total balance is:"+accountbal);
+                            }
+                            break;
+                            
+                 case "3": // accountbal=accountbal+deposit;
+                            if(account1==12345 && pwsd1==0000)
+
+                            {
+
+                             //   alert("withdraw amount is :");
+
+                                 withdraw=parseInt(prompt("enter your  withdraw amount"));
+                                if( withdraw>accountbal)
+                                {
+                                alert("insufficient balance");
+                                }else{
+
+                               accountbal=accountbal-withdraw;
+
+                                alert("remaining balance :"+accountbal);
+}
+                            }
+
+                            else if(account2=="67890" && pwsd2=="1111")
+
+                            {
+
+                             //   alert("deposit balance :");
+
+                                withdraw=parseInt(prompt("enter your withdraw amount"));
+                                 if( withdraw>accountbal)
+                                {
+                                alert("insufficient balance");
+                                }else{
+
+                               accountbal=accountbal- withdraw;
+
+                                alert("remaining balance is:"+accountbal);
+                    }
+                            }
+                                break;   
+                 case "4":alert("4.exit");
+                 atm();
+                 break;
+                 default :alert("enter the correct option");
+                              }
+                           }
+            }
+            else{
+            alert("you entered wrong password\n \nRe-enter your Account number");
+            atm();
+               }
+               }
+   else{
+    alert("you entered wrong account number");    
+    atm();
+        }
+      }
+      
+     atm(); 
+      </script>
+   </body>
+</html>   
+
+

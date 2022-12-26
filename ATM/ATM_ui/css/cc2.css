@@ -1,0 +1,298 @@
+    body{ 
+        background-color:#2022a1;
+        }
+        input[type=button]{
+         background-color:aqua;
+         text-align:center;
+         width:400px;
+         height:100px;
+         font-size:40px;
+         color:white;
+         cursor:pointer;
+         font-weight:strong;
+        
+        }
+        .contain{
+         margin-top:300px;
+         margin-left:400px;
+        }   
+       .ui{
+         display:none;
+          }             
+        .log{
+             display:none;
+              box-sizing: border-box;
+              margin-top:70px;
+              text-align: center;
+              width: 490px;
+              height: 590px;
+              font-size:20px;
+              background-color:white;
+              padding: 20px;
+              border-radius:7px;
+              border:5px solid ;
+               }
+               
+            h1{
+                text-align: center;
+             } 
+                                   
+           
+              
+              input[type=numeric],input[type=password],button{
+              width:350px;
+              height:37px;
+              }
+              button{
+              background-image:linear-gradient(to right, #00008B , #9400d3);
+              }                                   
+      
+         
+          .left-side{
+            float:left;
+            background-color:#2022a1;
+            width:27%;
+            padding:6px 12px 0px 28px;
+            margin:0px 0px 0px 20px;
+          }
+          .container{
+            background-color:#2022a1;
+            float:right;
+            width:70%;
+            padding:2px;
+            margin:-320px 0px 10px 8px;
+            color:#bdf2e2;
+          
+           }
+          
+          
+         .atm{
+           float:left;
+           text-align:left;
+           font-size: 300%;
+           padding:30px;
+          }
+          
+          .cardreturn{
+           cursor:pointer;
+          float:right;
+          margin:20px;
+          font-size: 200%;
+          }
+        
+          body{
+           background:#2022a1;
+          }
+          
+           .main{
+           float:left;
+           margin:50px 0px 0px 0px;
+           width:100%;
+           }
+          
+         
+          .Withdraw-btn{
+          
+           background-color:#2dedca;
+           width:46%;
+           height:85px;
+           margin:10px ;
+           font-size:200%;
+          }
+          .cancel{
+           background-color:#2dedca;
+           width:46%;
+           height:85px;
+           margin:10px ;
+           font-size:200%;
+            
+          
+          }
+          
+          .deposit-btn{
+           background-color:#2dedca;
+           width:46%;
+           height:85px;
+           margin:10px ;
+           font-size:200%;
+          
+          }
+          
+          .transactions_btn{
+           background-color:#2dedca;
+           width:46%;
+           height:85px;
+           margin:10px 10px 10px 10px;
+           font-size:200%;
+           }
+           
+          
+           .line{
+           width:100%;
+           } 
+           p{
+           margin:7px 7px 7px 0px;
+           color:#2dedca;
+           font-size:24px;
+           }
+           .d1{
+           float:left;
+           margin-left:65px;
+           }
+           .d2{
+           float:right;
+           margin-right:5px;
+           }
+           button:hover{
+           background-color:#3278bf;
+           }   
+           h2{
+           font-weight: 1100px;
+           }
+          
+        
+        .withdrawRequest{
+              display:none;
+              box-sizing: border-box;
+              background-color:#2022a1;
+              margin-top:250px;
+              margin-left:400px;
+              width: 450px;
+              height: 400px;
+              font-size:40px;
+              color:white;
+              padding: 20px;
+              border-radius:7px;
+             
+                       
+        }
+        
+        input[type=button], input[type=number]{
+         
+         text-align:center;
+         width:380px;
+         height:80px;
+         font-size:40px;
+         color:black;
+         
+         font-weight:strong;
+        
+        }
+         input[type=button]{
+         cursor:pointer;
+         color:white;
+        background-color:red;
+        }
+        
+        
+        .depositRequest{
+        display:none;
+              box-sizing: border-box;
+              background-color:#2022a1;
+              margin-top:250px;
+              margin-left:400px;
+              width: 450px;
+              height: 400px;
+              font-size:40px;
+              color:white;
+              padding: 20px;
+              border-radius:7px;
+             
+                       
+        }
+        
+        input[type=button], input[type=number]{
+         
+         text-align:center;
+         width:380px;
+         height:80px;
+         font-size:40px;
+         color:black;
+         
+         font-weight:strong;
+        
+        }
+         input[type=button]{
+         cursor:pointer;
+         color:white;
+        background-color:red;
+        }
+        .transaction
+        {
+        text-align:center;
+        display:none;
+        color:white;
+        }
+        
+        table,td{
+        font-size:25px;
+        margin-top:90px;
+        margin-left:223px;
+        border: 3px solid black;
+        text-align:center;
+        border-collapse: collapse;
+        padding:30px;
+        }
+        
+        tr{
+        
+        background-color:black;
+        }
+        .bg{
+        background-color:red;
+        }
+        strong{
+        
+         cursor:pointer;
+        }
+        .modal-content {
+        
+         background-color: red;
+        margin: auto;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 80%;
+        color:#000;
+         }
+
+
+        .close {
+         color: #aaaaaa;
+         float: right;
+         font-size: 28px;
+         font-weight: bold;
+           }
+
+       .close:hover,
+       .close:focus {
+        color: #000;
+        text-decoration: none;
+        cursor: pointer;
+}
+   .dep_trans{
+   display:none;
+   
+   }
+   .wit_trans{
+   display:none;
+   }
+   .green{
+   color:green;
+   counter-reset: my-sec-counter;
+   list-style-type: number;
+   }
+   /* .green::before {
+    counter-increment: my-sec-counter;;
+    content:counter(my-sec-counter);
+   } */
+   .red{
+   color:red;
+   counter-reset: my-sec-counter;
+   list-style-type: number;
+   }
+    /*   .red::before {
+    counter-increment: my-sec-counter;;
+    content:counter(my-sec-counter);
+ 
+   }  */
+                            
