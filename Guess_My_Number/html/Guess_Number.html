@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+         GUESS THE NUMBER
+        </title> 
+        <link href="../css/Guess_Number.css" rel="stylesheet"/> 
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"/>     
+    </head>
+<body>
+<header >
+<div class="clearfix">
+       <button class="again" onclick="restart()">Again!</button>
+       <div class="bw">(Between 1 and 20)</div>
+</div></header>
+<div class="headsize">
+<div class="heading">Guess My Number!</div>
+</div>
+<hr><center><div class="box">?</div></center>
+<div class="clearfix">
+<div class="d2">
+         <div class="checkbox">
+         <input type="number" class="guess"/></br>
+         <button class="check" onclick="check()">Check!</button>
+         </div>
+         <div class="high">
+         <p class="message">start Guessing..</p></br>
+         <p>&#128175; Score:<span class="score"></span></p></br>
+         <p > &#127941;High Score:<span class="highscore"></span></p>
+         </div>
+</div>
+</div>
+         
+<script src="../js/Guess_Number.js"> </script>       
+         
+</body>
+</html>
+        
