@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 1200px;
+    margin: auto;
+}
+#header{
+    clear: both;
+    padding-top: 30px;
+    color: #373737;
+    display: inline-block;
+    width: 100%;
+
+}
+.digiency--logo{
+    width: 25%;
+    float: left;
+}
+a{
+    margin: 25px;
+}
+a:hover{
+    cursor: pointer;
+    color: #FF5300;
+}
+#navigation{
+    width: 75%;
+    float: right;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    padding-top: 11px;
+    padding-left: 15px;
+}
+#btn--letstalk{
+    width: 115px;
+    height: 40px;
+    color: #373737;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 5px;
+    position: relative;
+    bottom: 5px;
+    
+}
+.service--container{
+    width: 100%;
+   
+    font-family: 'Poppins';
+    font-style: normal;
+}
+.service-title--name{
+   
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FF5300;
+    padding: 5px;
+    position: relative;
+    top: 2px;
+    
+    
+}
+.sevice--title--div{
+    text-align: center;
+}
+.line{
+    width: 40px;
+    border: 1px solid #FF5300;
+    display: inline-block;
+}
+
+.service--text{
+    
+    font-weight: 600;
+    font-size: 39.0625px;
+    line-height: 59px;
+    color: #373737;
+}
+#ourservices{
+   display: inline-block;
+    width: 100%
+    padding-top: 30px;
+    padding-left: 60px;
+}  
+#ourservices--div{
+    color: #7B7B7B;
+    float: left;
+    width: 30%;
+    margin: 8px
+}
+.ourservices--img--div{
+    clear: both;
+    display: inline-block;
+    width: 100%;
+    
+    
+}
+.interface--img{
+    float: left;
+    padding: 10px 0px 3px 18px;
+}
+.interface--num{
+    float: right;
+    padding: 20px 30px 0px 0px;
+
+}
+.grapic{
+    margin: 3px;
+    color: black;
+}
+.website{
+    margin-left: 15px;
+    padding: 4px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12.8px;
+    line-height: 19px;
+}
+.website--content{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 20px;
+}

@@ -1,0 +1,279 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#container{
+    width: 1200px;
+    margin:auto;
+}
+.home--container{
+    position: absolute;
+    width: 1440px;
+    height: 850px;
+    left: 0px;
+    top: 0px;
+    background: #FFF7F4;
+}
+#header{
+    position: absolute;
+    width: 1178px;
+    height: 50px;
+    left: 125px;
+    top: 30px;
+}
+
+.digiency--logo{
+    position: absolute;
+    width: 186px;
+    height: 50px;
+    left: 125px;
+    top: 30px;
+}
+.home{
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    left: 508px;
+    top: 41px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FF5300;
+}
+.aboutus{
+    position: absolute;
+    width: 91px;
+    height: 30px;
+    left: 597px;
+    top: 41px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #373737;
+
+}
+.services{
+    position: absolute;
+    width: 84px;
+    height: 30px;
+    left: 717px;
+    top: 41px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #373737;
+
+}
+.portfolio{
+    position: absolute;
+    width: 83px;
+    height: 30px;
+    left: 830px;
+    top: 41px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #373737;
+}
+.blog{
+    position: absolute;
+    width: 45px;
+    height: 30px;
+    left: 942px;
+    top: 41px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #373737;
+
+}
+.contactus{
+    position: absolute;
+    width: 112px;
+    height: 30px;
+    left: 1016px;
+    top: 41px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #373737;
+
+}
+#btn--letstalk{
+    padding-top: 4px;
+    padding-left: 8px;
+    position: absolute;
+    width: 100px;
+    height: 43px;
+    left: 1168px;
+    top: 30px;
+}
+.btn--letstalk__text{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 135px;
+    height: 50px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #373737;
+}
+.main{
+    position: absolute;
+    left: 135px;
+}
+.main--content--1{
+    position: absolute;
+    width: 602px;
+    height: 239px;
+    left: 115px;
+    top: 243px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48.83px;
+    line-height: 73px;
+    color: #373737;
+}
+.main--content--2{
+    position: absolute;
+    width: 586px;
+    height: 76px;
+    left: 135px;
+    top: 526px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7B7B7B;
+}
+.main--btn--startnow--div{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 182px;
+    height: 50px;
+    left: 135px;
+    top: 632px;  
+    filter: drop-shadow(4px 5px 15px rgba(255, 83, 0, 0.1));
+}
+#main--btn--startnow{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 22px;
+    gap: 10px;
+    width: 182px;
+    height: 50px;
+    background: #FF5300;
+    border-radius: 5px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.main--btn--startnow--text{
+    width: 138px;
+    height: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.frame{
+    position: absolute;
+    width: 553.03px;
+    height: 470.91px;
+    left: 761px;
+    top: 230px;
+}
+.service--container{
+    position: absolute;
+    width: 1170px;
+    height: 751px;
+    left: 135px;
+    top: 970px;
+}
+
+.service--title--div{
+    position: absolute;
+    width: 244px;
+    height: 91px;
+    left: 467px;
+    top: 0px;
+}
+.service--title{
+    position: absolute;
+    width: 199px;
+    height: 24px;
+    left: 485px;
+    top: 0px;
+    
+
+
+}
+.service-title--name{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FF5300;
+    position: absolute;
+    left: 45px;
+    top: 3px;
+}
+.line1{
+    position: absolute;
+    width: 40px;
+    height: 0px;
+    top: 17px;
+    border: 1px solid #FF5300;
+}
+.line2{
+    position: absolute;
+    width: 40px;
+    height: 0px;
+    left: 133px;
+    top: 17px;
+    border: 1px solid #FF5300;
+}
+.service--text{
+    position: absolute;
+    width: 244px;
+    height: 59px;
+    left: 467px;
+    top: 32px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 39.0625px;
+    line-height: 59px;
+    color: #373737;
+}

@@ -1,0 +1,52 @@
+{
+    "services":[
+        {
+            "img_url":"../images/ux-interface.png",
+            "num":"../images/01.png",
+            "category":"UX Design",
+            "website":"Mobile App, Website",
+            "website_content":"Lorem ipsum dolor sit amet, consec tet ur adipiscing elit. Accumsan sed faucibu s faucibus augue. Cras ut.",
+            "id":1
+        },
+        {
+            "img_url":"../images/gaming.png",
+            "num":"../images/02.png",
+            "category":"Game Design",
+            "website":"Mobile App, Website",
+            "website_content":"Lorem ipsum dolor sit amet, consec tet ur adipiscing elit. Accumsan sed faucibu s faucibus augue. Cras ut.",
+            "id":2
+        },
+        {
+            "img_url":"../images/design.png",
+            "num":"../images/03.png",
+            "category":"Graphic Design",
+            "website":"Mobile App, Website",
+            "website_content":"Lorem ipsum dolor sit amet, consec tet ur adipiscing elit. Accumsan sed faucibu s faucibus augue. Cras ut.",
+            "id":3
+        },
+        {
+            "img_url":"../images/web-design.png",
+            "num":"../images/04.png",
+            "category":"Web Design",
+            "website":"Mobile App, Website",
+            "website_content":"Lorem ipsum dolor sit amet, consec tet ur adipiscing elit. Accumsan sed faucibu s faucibus augue. Cras ut.",
+            "id":4
+        },
+        {
+            "img_url":"../images/mobile-development.png",
+            "num":"../images/05.png",
+            "category":"App Development",
+            "website":"Mobile App, Website",
+            "website_content":"Lorem ipsum dolor sit amet, consec tet ur adipiscing elit. Accumsan sed faucibu s faucibus augue. Cras ut.",
+            "id":5
+        },
+        {
+            "img_url":"../images/digital-marketing.png",
+            "num":"../images/06.png",
+            "category":"Digital Marketing",
+            "website":"Mobile App, Website",
+            "website_content":"Lorem ipsum dolor sit amet, consec tet ur adipiscing elit. Accumsan sed faucibu s faucibus augue. Cras ut.",
+            "id":6
+        }
+    ]
+}
